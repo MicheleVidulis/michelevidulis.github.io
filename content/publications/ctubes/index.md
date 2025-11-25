@@ -39,3 +39,7 @@ notes:
   - equal contribution
 ---
 {{< numbering h2=false h3=false >}}
+
+## Project Website
+
+{{< website-embed url="https://go.epfl.ch/c-tubes" title="C-Tubes project page" screenshot="projectpage.png" >}}

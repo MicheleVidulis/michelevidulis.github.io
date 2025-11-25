@@ -37,3 +37,7 @@ affiliations:
     # url: TODO
 ---
 {{< numbering h2=false h3=false >}}
+
+## Project Website
+
+{{< website-embed url="https://go.epfl.ch/knots" title="Knots project page" screenshot="projectpage.png" >}}
