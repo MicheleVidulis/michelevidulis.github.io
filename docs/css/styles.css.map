@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/michelevidulis/Code/michelevidulis",
+	"sourceRoot": "/Users/michelevidulis/Code/michelevidulis.github.io",
 	"sources": [
 		"themes/bloggraph/assets/sass/main.sass",
 		"themes/bloggraph/assets/sass/_variables.sass",
