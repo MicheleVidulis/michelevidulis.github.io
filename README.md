@@ -6,15 +6,30 @@ This repository hosts my personal webpage via GitHub Pages.
 
 Make sure Hugo **extended version** (v0.90+) is [installed](https://gohugo.io/getting-started/installing/). Clone with `--recursive` flag.
 
-```
-git clone --recursive https://github.com/desmondlzy/bloggraph-example yourwebsite
+```bash
+git clone --recursive git@github.com:MicheleVidulis/michelevidulis.github.io.git
 ```
 
-Then it's ready to go
+To preview the website locally, run:
 
-```
+```bash
 hugo serve
 ```
+
+To build the static files, run:
+
+```bash
+hugo
+```
+
+This will generate the static files in the `public/` directory, which can then be deployed to GitHub Pages.
+
+GitHub Pages will automatically serve the content of the `docs/` directory from the `main` branch, so move the contents of `public/` to `docs/` to push to GitHub:
+
+```bash
+mv public/* docs/
+```
+
 
 ## Credits
 
