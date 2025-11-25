@@ -1,0 +1,21 @@
+baseURL = 'https://example.com'
+languageCode = 'en-us'
+title = 'Michele Vidulis'
+theme = 'bloggraph'
+
+[params.author]
+    name = "Michele Vidulis"
+    github = "MicheleVidulis"
+    linkedin = "michele-vidulis"
+    email = "michele.vidulis@epfl.ch"
+    cv = "files/cv.pdf"
+
+[menu]
+[[menu.main]]
+    name = "Home"
+    url = '/'
+    weight = 1
+[[menu.main]]
+    name = "Publications"
+    url = '/publications'
+    weight = 2
